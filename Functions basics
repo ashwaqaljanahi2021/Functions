@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+double num(int num1, int num2)
+{
+
+cin>>num1>>num2;
+
+return num1+num2;
+
+}
+
+int main()
+{
+int num1,num2;
+
+cout<<"Please enter two numbers to be added together"<<endl;
+ 
+cout<<num(num1,num2)<<endl;
+
+
+
+}
