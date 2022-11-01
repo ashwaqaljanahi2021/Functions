@@ -16,23 +16,32 @@ cin>>num;
 cout<<Please enter your lowest degree number of your polynominal equation"<<endl;
 cin>>num2; 
 equation1=pow(variable,exponent)+(num*variable,exponent2)+num2; 
-cout<<equation<<endl;
+  cout<<equation<<endl;
 //We will now calculate the velocity 
-exponent = exponent-1;
-exponent = exponent-1; 
-num2=0;
-varible= exponent*variable;
-num= num*variable*exponent2; 
+  exponent = exponent-1;
+  exponent = exponent-1; 
+  num2=0;
+  varible= exponent*variable;
+  num= num*variable*exponent2; 
 return(equation1);
 
 }
 double velocity (double derivation1) //calculate velocity equation
 {
-
+double velocity1; 
+velocity = double(velocity);
+//If you want the find the particle at zero
 
 }
 
+double accerlation(double derivate2)
+{
+//This will calculate teh accerlation of the system that we can to examine. 
+//Still continuning the progress of this program at the moment. I know theres still a lot of bugs, just trying to get the bascis down.
+double accerlation;
 
+
+}
 int main()
 {
 
