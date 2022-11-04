@@ -2,3 +2,15 @@
 //This will have a couple of functions of calculation of the distance, velocity, and acceleration
 //This program will also showcase the output the distance of a particle dependency on time 
 
+#include <iostream>
+#include <iomanip>
+using namespace std;
+//prototypes 
+void info();
+void get_info();
+double calculation();
+
+int main()
+{
+
+}
