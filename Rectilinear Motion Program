@@ -4,13 +4,32 @@
 
 #include <iostream>
 #include <iomanip>
+#include <cmath>
 using namespace std;
 //prototypes 
 void info();
 void get_info();
 double calculation();
 
+
 int main()
 {
+
+}
+void info( )
+{
+cout<<"Welcome! Please enter the values of exponent to calculate, starting with the highest power!"<<endl;
+
+}
+double calculation(double equation)
+{
+double exponent1,exponent2;
+double num1,num2;
+cin>>exponent1>>exponent2;
+cout<<"Please enter your values that are associated with the equation below"<<endl;
+cin>>num1>>num2; 
+
+return pow(value,exponent1)+pow(num1*value,exponent2)+num2;
+
 
 }
