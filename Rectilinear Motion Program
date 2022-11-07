@@ -7,29 +7,35 @@
 #include <cmath>
 using namespace std;
 //prototypes 
+
 void info();
 void get_info();
-double calculation();
+double calculation(double result);
+
 
 
 int main()
 {
-
+int result;
+void info();
+exponent(result);
 }
+
 void info( )
 {
 cout<<"Welcome! Please enter the values of exponent to calculate, starting with the highest power!"<<endl;
-
 }
-double calculation(double equation)
+
+double calculation(double result) 
 {
-double exponent1,exponent2;
-double num1,num2;
-cin>>exponent1>>exponent2;
-cout<<"Please enter your values that are associated with the equation below"<<endl;
-cin>>num1>>num2; 
-
-return pow(value,exponent1)+pow(num1*value,exponent2)+num2;
-
-
+double equation;
+int num;
+cin>>expo1>>expo2;
+cout<<"Please enter value for you second highest degree number\n";
+cin>>num;
+for (int i = num; i<7; i++)
+{
+equation = pow(value,expo1)+pow(value*num,expo2);
+return equation;
+}
 }
