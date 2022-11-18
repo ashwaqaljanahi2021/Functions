@@ -86,7 +86,7 @@ double getinfo(double total) // calculate gym membership costs
 char ch,ans;
     cout<<"Please enter S/s for Senior or A/a for Adult"<<endl;
     cin>>ch;
-    while(ch != 'S'|| ch!= 's' || ch!='A' || ch!='a')//error validation 
+    while(ch != 'S' && ch!= 's' && ch!='A' && ch!='a')//error validation 
     {
         cout<<"Invaild response! Try again"<<endl;
         cout<<"Please enter S/s for Senior or A/a for Adult"<<endl;
